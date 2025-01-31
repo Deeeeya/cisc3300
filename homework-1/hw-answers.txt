@@ -1,0 +1,20 @@
+CISC 3300 SP24 
+Homework 1 
+
+1. What is HTML? What does it do?
+HTML is a markup language, which is a set of rules that defines how the layout and presentation of text and images should appear in a digital document. It allows for structuring documents, adding formatting, and specifying how different elements should be displayed or rendered on webpages.
+
+2. Access https://www.fordham.edu/. In your own words, describe how this webpage uses structure to convey meaning and navigation options to the user.
+This webpage is formatted neatly and made easily accessible to people. They have a fixed navigation bar on the top of the page to allow students to access it wherever they are on the page; they don’t have to scroll all the way up. You also notice how the page has separate sections to convey the purpose of the section; one section is used to list upcoming events, and another is to show articles published by Fordham students.
+
+3. What is an HTML element? Tag? Attribute? 
+HTML elements are building blocks of web pages, representing different types of content such as headings, paragraphs, links, and images. It is a collection of start and end tags with the content inserted between them. 
+Tags are like containers that enclose content inside them. For example, ‘<p>’ is the opening tag, and ‘</p>’ is the closing tag.
+An attribute provides additional information about the contents of an element.
+
+4. What does it mean when an element has semantic meaning? And structural meaning? 
+When an element has a semantic meaning, it means they are intended to convey meaning by its element type, even if the element is indistinguishable from other elements visually.
+Structural meaning has an effect on the structure of the page but doesn’t necessarily convey any meaning by its element type.
+
+5. What is the default behavior when submitting an HTML form? 
+A user fills in a form and then presses a button to submit the information to the server
