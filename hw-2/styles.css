@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+body {
+    background-color: hsl(20, 50%, 98%);
+    font-family: "Inter", serif;}
+
+.title {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    max-width: 100%;
+    height: 80px;
+    background-color: #f2bc79;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid #401708;
+    display: flex;
+    align-items: center;
+}
+
+.header-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    margin: auto;
+}
+
+.icon {
+    width: 70px;
+    height: 70px;
+}
+
+.links {
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.pics {
+    width: 300px;
+}
+
+
+.description {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px 0 20px 0;
+}
+
+.pastries {
+    font-size: 30px;
+}
+
+.imageList {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    padding: 30px 0 30px 0;
+}
+
+.business-form {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
