@@ -1,0 +1,30 @@
+CISC 3300 SP25 
+Homework 2 
+
+1. What do the id and class attributes do? How are they alike and different?
+
+- ‘Id’ attribute is used to uniquely identify a single HTML element, only one element can have a specific id, while a class attribute is used to define HTML elements but can be shared by multiple elements.
+- Both are used to style elements in CSS or in javascript and are applied to HTML elements, however, ids are unique while class attributes can be reused.
+
+2. What are the parts of a CSS rule? 
+
+- The selector targets html elements
+- The declaration block contains the styles that are applied and are enclosed in curly braces
+- The declaration which consists of a property and its value (color: red;)
+
+3. Explain how CSS rules cascade. 
+
+- CSS rules cascade depending on the source order, like rules overriding earlier rules or the specificity where id’s override class attributes.
+
+4. Contrast display: block, inline, inline-block. 
+
+- Block: starts on a new line and takes up full width available
+- Inline: does not start on a new line and only takes up width as necessary
+- Inline-block: acts like inline, but allows properties like width and height
+
+5. What are border, padding, and margin? 
+
+- Border is the boundary around the contend and padding of an element
+- Padding is the space between the content and element’s border
+- Margin is the space outside the border which separates the element from other elements
+
