@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Raleway", serif;
+}
+
+.whole-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.sections {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.section-links {
+    text-decoration: none;
+    color: black;
+}
+
+#current-link {
+    color: maroon;
+    font-weight: bold;
+}
+
+.right-title {
+    color: maroon;
+    margin-bottom: 20px;
+}
+
+.info {
+    margin-bottom: 5px;
+}
+
+.other-link {
+    color: maroon;
+}
+
+#last-info {
+    margin-bottom: 20px;
+}
+
+.pic {
+    float: right;
+    width: 300px;
+    height: 250px;
+    margin-right: 60px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
+
+.other-info {
+    margin-bottom: 20px;
+}
+
+.left-side {
+    margin-left: 10px;
+}
+
+.left-title {
+    color: maroon;
+
+}
+
+.mini-container {
+    width: 200px;
+    height: 80px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    border-left: 5px solid maroon;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.red-button {
+    width: 200px;
+    height: 55px;
+    color: white;
+    background-color: maroon;
+    font-weight: bold;
+    cursor: pointer;
+}

@@ -1,0 +1,2 @@
+1. Both flexbox and CSS grid are used to align elements, and format them accordingly, and both can handle responsiveness when combined with media queries. However, the flexbox layout is 1d while CSS grid is 2d, and flexbox is used for aligning items in a simple matter while Grid is used for complex layouts.
+2. Responsive design is a web design approach that is used to adapt to different screen sizes depending on the device. We implement it using media queries --> @media screen and (min-width: #px) {}
