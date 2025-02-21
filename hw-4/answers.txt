@@ -1,0 +1,18 @@
+CISC 3300 S25 
+Homework 4 
+1. How does an interpreted programming language differ from a compiled language? 
+- Interpreted languages are usually slower than a compiled language because code is executed line by line by an interpreter during runtime, but they are more flexible while a compiled language runs faster because code is translated into machine code before it is executed by a compiler, but it requires extra steps.
+2. Contrast dynamically typed programming languages with statically typed ones. And contrast strongly typed programming languages with weakly typed ones. 
+- Dynamically typed programming languages' variable types are determined at runtime while the variable types in statistically typed ones are defined at compile-time.
+- Strongly typed programming languages prevent implicit type conversions which leads to errors while weakly typed ones allow implicit type coercion.
+3. What is the difference between var, let, and const when declaring variables in JS? 
+- ‘var’ is function scoped, and can be redeclared and hoisted.
+- ‘let’ is block-scoped which means it cannot be redeclared but it can be hoisted but not initialized like var.
+- ‘const’ is block-scoped and cannot be redeclared or reassigned. It however can be hoisted but not initialized.
+4. What are anonymous functions? Higher order functions? Callback functions? First class functions? 
+- Anonymous functions are functions without a name which are mainly used as arguments in other functions.
+- High-order functions are functions that take another function as an argument or return a function.
+- Callback functions are functions passed as an argument to another function to be executed later
+- First-class functions are functions that are treated as variables and can be assigned, passed or returned.
+5. Define objects in JavaScript. 
+- Objects in JavaScript are data types that are used to store various keyed collections and more complex entities.
