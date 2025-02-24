@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>In Class Assignment 12</title>
+  </head>
+  <body>
+    <script>
+      // Question 5
+      function outerFunction(outerValue) {
+        function innerFunction(innerValue) {
+          return outerValue + innerValue;
+        }
+        return innerFunction;
+      }
+
+      const addNum = outerFunction(10);
+      const result = addNum(10);
+      console.log(result);
+    </script>
+  </body>
+</html>
