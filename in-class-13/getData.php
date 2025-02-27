@@ -1,4 +1,3 @@
 <?php
-    $data = "Dheya was here!";
-    echo $data;
+    include 'needed.html';
 ?>
