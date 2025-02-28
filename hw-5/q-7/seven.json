@@ -1,0 +1,12 @@
+{
+  "desserts": [
+    {
+      "name": "Strawberry Cupcake",
+      "price": 5.99
+    },
+    {
+      "name": "Rainbow Cookie",
+      "price": 3.99
+    }
+  ]
+}

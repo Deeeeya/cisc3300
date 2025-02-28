@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <button id="ajax-get">Get Products</button>
+    <div id="products"></div>
+    <script>
+      $("#ajax-get").on("click", function () {
+        $.ajax({
+          url: "http://localhost:8888/products",
+          type: "GET",
+          dataType: "json",
+          success: function (data) {
+            console.log(data);
+            $.each(data, function (index, value) {
+              $("#products").append(`
+                    <div>${value["name"]} - $${value["price"]}</div>
+                `);
+            });
+          },
+        });
+      });
+    </script>
+  </body>
+</html>

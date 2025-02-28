@@ -1,0 +1,15 @@
+CISC 3300 S25 
+Homework 5 
+1. What is the DOM? What is meant by the DOM tree? 
+DOM is a programming interface that represents the structure of a web page as a tree of objects. DOM tree is the hierarchical structure of an HTML or XML document and how elements are nested inside each other in an HTML document.
+2. What is an XSS attack? How do they work? How can you guard against them? 
+An XSS attack is a security vulnerability that allows cyber criminals execute malicious scripts on legitimate or trusted websites. The attacker injects a malicious script into a websites input fields, databases, or parameters and when a user visits the page, the script executes in their browser. To guard against them, you can use CSP to restrict the script from executing, validating and encoding output before rendering it, and using HTTP-only cookies.
+3. What is an event in JavaScript? What kind of events can you respond to with code?
+An event is the action that occurs on a webpage that JS responds to. It responds to mouse events such as clicking, keyboard events, form events, etc.
+4. How does a DOM eventListener work? What are the parameters it is expecting? 
+A DOM eventListener listens for an event on a specific element. It first expects an event type, such as “click”, and expects a function to execute when the event occurs.
+5. What is jQuery? Why use it? How do we load jQuery onto a page? 
+jQuery is a javascript library that is used for DOM manipulation, AJAX requests, and handling events. We use jQuery to simplify event handling, provide easier DOM traversal and manipulation, and shorter code. We load jQuery using a script tag → 
+“<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>”
+6. What is AJAX? JSON? The HTTP method types and what they do? 
+AJAX allows web pages to send and receive data from a server, while JSON is a format for exchanging data. Some HTTP method types are GET, POST, PUT, and DELETE. ‘GET’ retrieves data from a server, ‘POST’ sends data to a server, ‘PUT’ updates a resource, and ‘DELETE’ removes a resource.

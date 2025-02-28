@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <form id="ajax-form">
+      <input
+        type="text"
+        name="username"
+        placeholder="Enter your name"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+    <div id="message-container"></div>
+    <script>
+      $("#ajax-form").on("submit", function (event) {
+        event.preventDefault();
+        $.ajax({
+          url: "http://localhost:8888/form-submit",
+          type: "POST",
+          data: $(this).serialize(),
+          dataType: "json",
+          success: function (data) {
+            console.log(data);
+            $("#message-container").html(`
+                        <div style="color: green;">${data.message}</div>
+                    `);
+          },
+        });
+      });
+    </script>
+  </body>
+</html>
