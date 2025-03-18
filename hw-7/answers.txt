@@ -1,0 +1,21 @@
+CISC 3300 S25 
+Homework 7 
+1. What is a class? What is an object? What is OOP? 
+A class is a blueprint for creating objects, and it defines variables and functions that objects that are created from the class will have.
+An object is an instance of a class that follows the structure and behavior defined in the class.
+OOP is a computer programming model that organizes software design around data, or objects.
+2. Why use an abstract class in OOP? 
+We use it to allow child classes to inherit common methods, and be implemented in child cases.
+3. What are superglobals in PHP, what are some examples of data they provide? 
+Superglobals are built-in PHP variables that are always accessible. Some examples are → $GET (retrieve data from the URL query string), $_POST (retrieve data sent from an html form) 
+4. What are the two steps to setting up and using a class via namespaces? 
+You define the namespace in the php file and then use the class in another file.
+5. What is MVC? Detail the different parts. 
+MVC is an architectural/design pattern that separates an application into three main logical components Model, View, and Controller. 
+Model handles data and business logic, view displays data to the user, and controller hands user input and processes requests. It also updates models and views.
+6. If I had a resource called users in my application that was designed with RESTFUL URI design, what would the URI and HTTP verbs be for: 
+a. getting all users: /users & GET
+b. getting one users: /users/{id} & GET
+c. saving a user: /users & POST 
+d. editing a user: /users/{id} & PUT 
+e. deleting a user: /users/{id} & DELETE 

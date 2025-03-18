@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Homework 7</title>
+    <style>
+      body {
+        margin: 40px;
+      }
+      .container {
+        max-width: 400px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+      }
+      .error {
+        color: red;
+      }
+      .success {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Note Submission</h2>
+      <div id="message"></div>
+      <form method="POST" action="">
+        <label>Title:</label>
+        <input type="text" name="title" /><br /><br />
+        <label>Description:</label>
+        <textarea name="description"></textarea><br /><br />
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const errorMsg = "<?php echo isset($error) ? $error : ''; ?>";
+        const successMsg = "<?php echo isset($success) ? $success : ''; ?>";
+        if (errorMsg) {
+          document.getElementById(
+            "message"
+          ).innerHTML = `<div class='error'>${errorMsg}</div>`;
+        }
+        if (successMsg) {
+          document.getElementById(
+            "message"
+          ).innerHTML = `<div class='success'>${successMsg}</div>`;
+        }
+      });
+    </script>
+  </body>
+</html>
